@@ -1,0 +1,42 @@
+{
+  "name": "duque_lasso_sas-backend",
+  "version": "1.0.0",
+  "description": "La empresa de cultivos Servicios Agricolas Duque Lasso SAS desea automatizar a través de un sistema de información la siembra y recolección de cultivos. La compañía puede tener hasta X diferentes tipos de cultivos y cada uno de ellos debe ser parametrizable",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel app.js --out-file app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarandres8911/Duque_Lasso_SAS-backend.git"
+  },
+  "keywords": [
+    "Agricola",
+    "servicios"
+  ],
+  "author": "Cesar Meneses",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarandres8911/Duque_Lasso_SAS-backend/issues"
+  },
+  "homepage": "https://github.com/cesarandres8911/Duque_Lasso_SAS-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
